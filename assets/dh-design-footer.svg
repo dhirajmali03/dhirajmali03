@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-labelledby="title">
+  <title id="title">DH DESIGN — Design. Create. Innovate.</title>
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10070C"/><stop offset=".5" stop-color="#451126"/><stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="140" rx="16" fill="url(#footerBg)"/>
+  <path d="M40 36H1160 M40 104H1160" stroke="#C77B9B" stroke-opacity=".25"/>
+  <path d="M40 36H300" stroke="#C77B9B" stroke-width="2">
+    <animate attributeName="stroke-dasharray" values="0 260;260 0;0 260" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <text x="600" y="70" text-anchor="middle" fill="#F8F0F3" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="4">DESIGN. CREATE. INNOVATE.</text>
+  <text x="600" y="92" text-anchor="middle" fill="#E5B5C7" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3">DH DESIGN  ·  WEB DEVELOPER</text>
+</svg>

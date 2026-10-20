@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">DH DESIGN — Web Developer</title>
+  <desc id="desc">A burgundy and midnight animated banner for Dhiraj Mali.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10070C"/><stop offset=".55" stop-color="#190B12"/><stop offset="1" stop-color="#451126"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E5B5C7" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1;0;1" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1;2" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#C77B9B" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <circle cx="1010" cy="80" r="150" fill="#701A3D" opacity=".18">
+    <animate attributeName="r" values="140;165;140" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1010" cy="80" r="98" fill="none" stroke="#C77B9B" stroke-opacity=".55"/>
+  <circle cx="1010" cy="80" r="124" fill="none" stroke="#C77B9B" stroke-opacity=".22" stroke-dasharray="4 10">
+    <animateTransform attributeName="transform" type="rotate" from="0 1010 80" to="360 1010 80" dur="36s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M760 270 C850 200 880 315 970 220 S1110 150 1180 205" fill="none" stroke="url(#glow)" stroke-width="2" filter="url(#softGlow)"/>
+  <path d="M42 42H82 M42 42V82 M1158 278H1118 M1158 278V318" stroke="#C77B9B" stroke-width="2" opacity=".8"/>
+  <text x="72" y="76" fill="#C77B9B" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="5">DH DESIGN  /  DEVELOPER PROFILE</text>
+  <text x="68" y="166" fill="#F8F0F3" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="-1">Dhiraj Mali</text>
+  <text x="72" y="210" fill="#E5B5C7" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="2">WEB DEVELOPER</text>
+  <rect x="72" y="238" width="330" height="2" fill="#701A3D"/>
+  <rect x="72" y="238" width="105" height="2" fill="#E5B5C7">
+    <animate attributeName="width" values="55;330;55" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="72" y="274" fill="#F8F0F3" opacity=".85" font-family="Arial, Helvetica, sans-serif" font-size="17">Design. Create. Innovate.</text>
+  <text x="72" y="310" fill="#C77B9B" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2">WEB DEVELOPMENT  ·  CREATIVE DESIGN</text>
+  <g fill="#E5B5C7">
+    <circle cx="1080" cy="78" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="126" r="3"><animate attributeName="opacity" values="1;.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1095" cy="160" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
