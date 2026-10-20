@@ -51,7 +51,7 @@ The activity graph below uses your GitHub username and displays activity supplie
 
 <div align="center">
 
-[![Dhiraj's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dhirajmali03&bg_color=10070C&color=E5B5C7&line=C77B9B&point=F8F0F3&area=true&hide_border=true)](https://github.com/dhirajmali03)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dhirajmali03&theme=react-dark&hide_border=true)
 
 </div>
 
